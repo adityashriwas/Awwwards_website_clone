@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kotBazar.com</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1170px)"
+      href="phone.css"
+    />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-75">
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Full Name"
+                />
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Your Email"
+                />
+                <label for="adr"
+                  ><i class="fa fa-address-card-o"></i> Address</label
+                >
+                <input
+                  type="text"
+                  id="adr"
+                  name="address"
+                  placeholder="Current Address"
+                />
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="Current City"
+                />
+
+                <div class="row">
+                  <div class="col-50">
+                    <label for="state">State</label>
+                    <select name="state" id="state" class="form-control">
+                      <option value="Andhra Pradesh">Andhra Pradesh</option>
+                      <option value="Andaman and Nicobar Islands">
+                        Andaman and Nicobar Islands
+                      </option>
+                      <option value="Arunachal Pradesh">
+                        Arunachal Pradesh
+                      </option>
+                      <option value="Assam">Assam</option>
+                      <option value="Bihar">Bihar</option>
+                      <option value="Chandigarh">Chandigarh</option>
+                      <option value="Chhattisgarh">Chhattisgarh</option>
+                      <option value="Dadar and Nagar Haveli">
+                        Dadar and Nagar Haveli
+                      </option>
+                      <option value="Daman and Diu">Daman and Diu</option>
+                      <option value="Delhi">Delhi</option>
+                      <option value="Lakshadweep">Lakshadweep</option>
+                      <option value="Puducherry">Puducherry</option>
+                      <option value="Goa">Goa</option>
+                      <option value="Gujarat">Gujarat</option>
+                      <option value="Haryana">Haryana</option>
+                      <option value="Himachal Pradesh">Himachal Pradesh</option>
+                      <option value="Jammu and Kashmir">
+                        Jammu and Kashmir
+                      </option>
+                      <option value="Jharkhand">Jharkhand</option>
+                      <option value="Karnataka">Karnataka</option>
+                      <option value="Kerala">Kerala</option>
+                      <option value="Madhya Pradesh">Madhya Pradesh</option>
+                      <option value="Maharashtra">Maharashtra</option>
+                      <option value="Manipur">Manipur</option>
+                      <option value="Meghalaya">Meghalaya</option>
+                      <option value="Mizoram">Mizoram</option>
+                      <option value="Nagaland">Nagaland</option>
+                      <option value="Odisha">Odisha</option>
+                      <option value="Punjab">Punjab</option>
+                      <option value="Rajasthan">Rajasthan</option>
+                      <option value="Sikkim">Sikkim</option>
+                      <option value="Tamil Nadu">Tamil Nadu</option>
+                      <option value="Telangana">Telangana</option>
+                      <option value="Tripura">Tripura</option>
+                      <option value="Uttar Pradesh">Uttar Pradesh</option>
+                      <option value="Uttarakhand">Uttarakhand</option>
+                      <option value="West Bengal">West Bengal</option>
+                    </select>
+                  </div>
+
+                  <div class="col-50">
+                    <label for="zip">Pincode</label>
+                    <input
+                      type="text"
+                      id="zip"
+                      name="zip"
+                      placeholder="Pincode"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-50">
+                <h3>Payment</h3>
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i class="fa-brands fa-cc-visa" style="color: navy"></i>
+                  <i class="fa-brands fa-paypal" style="color:blue"></i>
+                  <i class="fa-brands fa-cc-mastercard" style="color: red"></i>
+                </div>
+                <label for="cname">Name on Card</label>
+                <input
+                  type="text"
+                  id="cname"
+                  name="cardname"
+                  placeholder="Name"
+                />
+                <label for="ccnum">Credit card number</label>
+                <input
+                  type="text"
+                  id="ccnum"
+                  name="cardnumber"
+                  placeholder="1111-2222-3333-4444"
+                />
+                <label for="expmonth">Exp Month</label>
+                <input
+                  type="text"
+                  id="expmonth"
+                  name="expmonth"
+                  placeholder="Expiry Month"
+                />
+
+                <div class="row">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input
+                      type="text"
+                      id="expyear"
+                      name="expyear"
+                      placeholder="2018"
+                    />
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="c
+                    vv" placeholder="352" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input type="submit" value="Continue to checkout" class="btn1" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="center">
+        copyright &copy; www.KotBazar.com All rights reserved!
+      </div>
+    </footer>
+  </body>
+</html>

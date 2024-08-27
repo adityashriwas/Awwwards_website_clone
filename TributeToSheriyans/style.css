@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: 	#0e1111;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main{
+    font-size: 100%;
+    padding: 0 20vh;
+}
+
+svg{
+    font-size: 3vw;
+}
+
+.right, .right4{
+    position: absolute;
+    right: 30%;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 3vh;
+}
+
+#navbar h1{
+    font-size: 3vw;
+}
+
+nav img{
+    height: 10vh;
+}
+
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1 .line{
+    height: 5px;
+    width: 70%;
+    background-color: azure;
+}
+
+#page1 h1{
+    font-size: 16vw;
+    line-height: 1;
+    /* color: rgb(14, 13, 13); */
+}
+
+#page1 img{
+    height: 100%;
+    width: 50%;
+    background-size: auto;
+}
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page2part1{
+    width: 50%;
+    position: relative;
+}
+
+#page2part2{
+    width: 50%;
+}
+
+#page2part1 p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#page2part2{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page3{
+    margin-top: 20vh;
+    position: relative;
+    height: 110vh;
+    width: 100%;
+}
+
+#page3 h2{
+    font-size: 3.5vw;
+}
+
+#page3 h3{
+    position: absolute;
+}
+
+#family{
+    height: 70vh;
+    width: 60vw;
+}
+
+#page3 img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+#page3 #family p{
+    position: absolute;
+    font-size: 5vw;
+    top: -15%;
+    z-index: 1;
+    left: -5%;
+    background: transparent;
+}
+
+#familyText{
+    margin-top: 7vh;
+    font-size: 2vw;
+    text-align: right;
+}
+
+#page4{
+    margin-top: 5vh;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page4part1{
+    width: 50%;
+    position: relative;
+}
+
+#page4part2{
+    width: 50%;
+}
+
+#page4part1 p{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#page4part2{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page5{
+    margin-top: 10vh;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10vw; */
+}
+
+#page5part1{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#page5part2{
+    width: 50%;
+}
+
+#page5part1 p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#page5part2{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page5part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left5{
+    position: absolute;
+    left: 10%;
+    top: -10%;
+}
+
+.right5{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20vh;
+}
+
+footer h4{
+    font-size: 4vw;
+}
+
+@keyframes scroll {
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-100%);
+    }
+  }
+
+  #scroller {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+  }
+  
+  #scroller::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroller-in {
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  #scroller h4 {
+    display: inline-block;
+    font-size: 5vw;
+    font-weight: 900;
+    transition: all linear 0.3s;
+    margin-right: 5vw;
+    color: transparent;
+    -webkit-text-stroke: 0.1vw #fff;
+  }
+  
+
+  @media (max-width: 1100px) {
+    #navbar h1{
+        font-size: 7vw;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+      #main{
+        padding: 0 10vh;
+        }
+        #page2part1 p{
+            font-size: 3vw;
+        }
+        #page4part1 p{
+            font-size: 3vw;
+        }
+        #page5part1 p{
+            font-size: 3vw;
+        }
+        #scroller h4{
+            font-size: 7vw;
+        }
+        #familyText{
+            font-size: 3vw;
+        }
+        #family{
+            height: 70vh;
+            width: 80vw;
+        }
+    }
+
+    @media (max-width: 1300px) {
+        #family{
+            height: 70vh;
+            width: 70vw;
+        }
+    }
+    @media (max-width: 900px) {
+        #main{
+            padding: 0 5vh;
+            }
+      }
+    @media (max-width: 700px) {
+      nav img{
+          height: 7vh;
+      }
+    }
+
+    @media (max-width: 800px) {
+        .page{
+            flex-direction: column;
+            gap: 3vh;
+            height: 75vh;
+        }
+
+        #page3{
+            height: 65vh;
+        }
+
+        #family{
+            width: 100%;
+            height: 40vh;
+        }
+
+        #page5, #page4, #page2{
+            height: 75vh;
+            align-items: center;
+            justify-content: center;
+            gap: 7vh;
+        }
+
+        #page2part1 p, #page4part1 p, #page5part1 p{
+            font-size: 4vw;
+        }
+
+        #page2part1, #page4part1{
+            width: 100%;
+            margin-left: 20vw;
+        }
+
+        #page2part2, #page4part2, #page5part2{
+            width: 100%;
+            height: 50vh;
+        }
+
+        #page5part1{
+            width: 100%;
+        }
+
+        #scroller h4 {
+            margin-top: 5vh;
+            font-size: 10vw;
+        }
+
+        svg{
+            font-size: 7vw;
+        }
+        
+    }

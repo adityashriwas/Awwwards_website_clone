@@ -1,0 +1,149 @@
+/* Styling navbar box 2*/
+
+.logo {
+  height: 25px;
+  width: 50px;
+  margin-left: -5px;
+}
+
+.nav-logo {
+  height: 25px;
+  width: 30px;
+}
+
+.add-first {
+  font-size: 0.5rem;
+  margin-left: 15px;
+}
+
+.add-sec {
+  margin-left: 3px;
+}
+
+.nav-address {
+  height: 20px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+/* styling box 3 */
+
+.nav-search {
+  width: 210px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.search-input {
+  font-size: 0.8rem;
+}
+
+.search-icon {
+  width: 35px;
+}
+
+/* styling box 4 & 5 */
+
+span {
+  font-size: 0.5rem;
+  margin-left: 10px;
+}
+
+.nav-second {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* styling box 6 */
+.nav-cart i {
+  font-size: 20px;
+}
+
+.nav-cart {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* styling panel 2 */
+
+.panel-ops p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-ops {
+  width: 70%;
+  font-size: 0.5rem;
+}
+
+.panel-deals {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+.panel-all i {
+  width: 4px;
+  margin-right: 10px;
+}
+
+/* styling hero section */
+
+.hero-msg {
+  font-size: 0.7rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* styling shoping section */
+
+.box {
+  height: 200px;
+  width: 200px;
+}
+
+.box p {
+  font-size: 10px;
+}
+
+.box-img {
+  height: 150px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.box h2 {
+  font-size: 0.8rem;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* styling footer */
+
+ul {
+  margin-top: 20px;
+}
+
+ul a {
+  display: flex;
+  font-size: 0.5rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+/* styling panel 3 */
+
+.foot-panel3 {
+  height: 40px;
+}
+
+/* styling panel 4 */
+
+.foot-panel4 {
+  height: 40px;
+  font-size: 0.5rem;
+}

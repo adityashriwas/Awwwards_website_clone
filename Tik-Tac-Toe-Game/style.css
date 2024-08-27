@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+  }
+  
+  body {
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .navbar{
+    height: 70px;
+    width: 98%;
+    border-bottom: 2px solid #dadada;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    position: fixed;
+    background-color: white;    
+}
+
+.navbar img{
+  height: 60px;
+  width: 60px;
+}
+
+.navbar .tik h1{
+  padding: 0 1vw;
+  border: 1px solid;
+  color: white;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+  .container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 13vmin;
+    color: #b0413e;
+    background-color:#b1c9ef;
+  }
+  
+  #reset-btn {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    background-color: lightseagreen;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 3vh;
+  }
+  
+  #new-btn {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    background-color: lightseagreen;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: lightseagreen;
+    font-size: 10vmin;
+    font-weight: 900;
+  }
+  
+  .msg-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+ 
+    @media screen and (max-width: 1024px) {
+      #reset-btn{
+        height: 50px;
+        width: 200px;
+        font-size: 30px;
+      }
+      #new-btn{
+        height: 50px;
+        width: 200px;
+        font-size: 30px;
+      }
+    
+    }

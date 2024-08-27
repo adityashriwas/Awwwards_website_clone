@@ -1,0 +1,168 @@
+#page1 h1::before{   
+    top: -2px;
+    left: -2px;    
+}
+
+#page1 #arrow {
+  left: -2%;
+  bottom: 7%;
+}
+
+#nav{ 
+    padding: 0 3vw;
+    justify-content: space-between;  
+}
+
+#nav img {
+    height: 7vh;
+}
+
+#nav h4{
+    display: none;
+}
+
+#nav h5{
+    display: block;
+}
+
+#page1 p {
+    width: 85%;
+    font-size: 15px;
+}
+
+#page1 h1 {
+    font-size: 10vw;
+}
+
+
+#page1 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+#scroller h4 {
+  font-size: 15vw;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #95c11e;
+}
+
+
+#about-us{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+  
+#aboutText {
+    width: 70%;
+  }
+
+  #f1 img {
+    height: 10vh;
+  }
+
+  #aboutText {
+    width: 70%;
+    text-align: center;
+  }
+  
+  #about-us img {
+    height: 20vh;
+    width: 30vh;
+  }
+  #aboutText h3 {
+    font-size: 35px;
+    margin-bottom: 3vh;
+  }
+
+  #aboutText p {
+    font-size: 15px;
+    line-height: 2.5vh;
+  }
+
+  #cards-container {
+    flex-direction: column;
+  }
+  
+  .cards {
+    height: 30%;
+    width: 80%;  
+  }
+
+  .overlay{
+    padding-top: 1vh;
+  }
+
+  
+  .overlay h4{
+  font-size: 2vh;
+  }
+
+  #page5 > p {
+    font-size: 15px;
+    font-weight: 500;    
+    line-height: 19px;
+}
+
+#page5 img {
+  height: 30px;
+}
+
+#page5 {
+  height: 50vh;
+}
+#page5 #colon1 {
+  left: 20%;
+  top: 25%;
+}
+
+#page5 #colon2 {
+  right: 20%;
+  bottom: 25%;
+}
+
+#page6{
+  flex-direction: column;
+}
+
+.elem {
+  height: 20%;
+  width: 70%;
+}
+
+#page6 h1 {
+  font-size: 7vw;
+  position: absolute;
+  top: 5%;
+}
+ 
+#page1 #arrow {
+  bottom: 3;
+}
+
+#f2 h3 {
+  font-size: 3vw;
+}
+
+#f3 h3 {
+  font-size: 3vw;
+}
+#f4 h4 {
+  font-size: 2vw;
+}
+
+#footer{
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#green-div {
+  height: 15vh;
+}
+
+#green-div h4{
+font-size: 15px;
+}
+

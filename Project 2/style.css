@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+}
+
+#nav i{
+    display: none;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+#nav a{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;   
+}
+
+#nav #centertag{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hero{
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sustain{
+    width: 10vw;
+}
+
+#sustain p{
+    font-size: 10px;
+    font-weight: 800;
+    opacity: .5;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+#sustain #suimagewrapper{
+    position: relative;
+    width: 100%;
+    height: 15vw;
+    overflow: hidden;
+}
+
+#suimagewrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ephemeral{
+    position: relative;
+    width: 30vw;
+    min-height: 38vw;
+}
+
+#ephemeral #headings{
+    position: absolute;
+    top: -15%;
+    left: -17%;
+}
+
+#ephemeral h1{
+    line-height: 1;
+    letter-spacing: -.4vw;
+    font-size: 5vw;
+    font-weight: 400;
+}
+
+#ephemeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ephemeral p{
+    margin-top: 25px;
+    font-size: 1.3vw;
+    width: 40%;
+    letter-spacing: -.05vw;
+}
+
+#circlev{
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+}
+
+#circlev i{
+    color: #5e5e5e;
+}
+
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#visit h3{
+    color: #5e5e5e;
+    font-weight: 400;
+}
+
+#motive{
+    margin-top: 7vh;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#motive p{
+    position: relative;
+    right: 0;
+    width: 85%;
+    text-align: right;
+    font-size: 2vw;
+    line-height: 1.7;
+    letter-spacing: -.15vw;
+}
+
+#motive span{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 100px;
+    background-color: red;
+    margin: 0 10px;
+    margin-bottom: -3px;
+}
+
+#spanone{
+    width: 50px;
+    height: 30px;
+    background-image: url(Assets/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#spantwo{
+    width: 70px;
+    height: 30px;
+     background-image: url(Assets/shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+#spanthree{
+    width: 50px;
+    height: 30px;
+         background-image: url(Assets/grass.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+#firstpic{
+    width: 17vw;
+}
+
+#firstpic #picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+}
+
+#picimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#firstpic h1, #secpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#firstpic p, #secpic p{
+    opacity: .5;
+    font-size: 14px;
+    letter-spacing: -.1vw;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+#secpic{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#secpic #picimg{
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+}
+
+#secpic p{
+    width: 50%;
+    text-align: right;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+    height: 70vh;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+
+#btext h1{
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+}
+
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+}
+
+#future{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#future video{
+    opacity: .1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 100px;
+}
+
+#ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .6vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #c6c6c6;
+    color: #6f6f6f;
+}
+
+
+@media (max-width: 903px) {
+    #hero{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #sustain{
+    width: 30vw;
+    }
+
+    #sustain p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    #sustain #suimagewrapper{       
+        height: 55vw;        
+    }
+
+    #ephemeral{
+        margin-top: 15vh;
+        position: relative;
+        width: 50vw;
+    }
+
+    #ephemeral #headings{
+        position: absolute;
+        top: -10%;
+        left: -10%;
+    }
+
+    #ephemeral p{
+        margin-top: 25px;
+        font-size: 1.8vw;
+        width: 50%;
+    }
+
+    #visit{
+        margin-top: 10vh;
+    }
+
+    #motive p{
+        font-size: 3vw;
+        line-height: 1.7;
+        letter-spacing: -.15vw;
+    }
+
+    #btext {
+        width: 35%;
+        padding: 0 10vw;
+    }
+
+    #future{
+        width: 100%;
+        height: 100vh;        
+    }
+
+    #firstpic{
+        width: 17vw;
+    }
+
+    #secpic{
+        width: 25vw;
+    }
+
+    #firstpic h1, #secpic h1{
+        letter-spacing: -.1vw;
+        font-weight: 100;
+        font-size: 3vw;
+    }
+
+    #firstpic p, #secpic p{
+        font-size: 17px;
+        letter-spacing: -.02vw;        
+    }
+
+    #ftext button {
+        font-size: 1vw;        
+    }
+
+}
+
+ @media (max-width: 670px){
+    #nav #centertag{
+        display: none;
+    }
+
+    #sustain{
+        width: 40vw;
+    }
+
+    #sustain h2{
+        font-size: 5vw;
+    }
+
+    #sustain h5{
+        font-size: 3vw;
+    }
+
+    #ephemeral{
+        position: relative;
+        width: 60vw;
+        min-height: 38vw;
+    }
+
+    #ephemeral #headings{
+        position: absolute;
+        top: -11%;
+        left: -12%;
+    }    
+
+    #ephemeral h1{
+        line-height: 1;
+        letter-spacing: -.4vw;
+        font-size: 7vw;
+        font-weight: 400;
+    }
+
+    #ephemeral p{
+        margin-top: 25px;
+        font-size: 2.5vw;
+        width: 50%;
+    }
+
+    #motive p{    
+        font-size: 3.5vw;
+        line-height: 1.7;
+        letter-spacing: -.15vw;
+    }
+
+    #pictures{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10vh;
+    }
+
+    #firstpic{
+        width: 40vw;
+    }
+
+    #firstpic #picimg{
+        width: 100%;
+        height: 54vw;
+    }
+
+    #secpic{
+        width: 60vw;
+    }
+
+    #secpic #picimg{
+        width: 100%;
+        height: 75vh;
+        margin-bottom: 1vw;
+    }
+
+    #firstpic h1, #secpic h1{
+        letter-spacing: -.1vw;
+        font-weight: 100;
+        font-size: 4vw;
+    }
+
+    #btext h1{
+        font-size: 3.5vw;
+    }
+
+    #btext p{
+       font-size: 10px;
+    }
+
+    #firstpic p, #secpic p{
+        opacity: .5;
+        font-size: 15px;
+        letter-spacing: -.1vw;
+        line-height: 1;
+        margin-top: 10px;
+    }
+
+    #bimg{
+        width: 70%;
+        height: 70vh;
+    }
+
+    #btext{
+        width: 30%;
+        padding: 0 5vw;
+    }
+
+    #ftext button {
+        font-size: 1vw;        
+    }
+
+} 
+
+@media (max-width: 450px){
+
+    #sustain p{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    #spanone{
+        width: 50px;
+        height: 20px;
+        background-position: 0% 50%;
+    }
+    
+    #spantwo{
+        width: 70px;
+        height: 25px;
+        background-position: 0% 50%;
+    }
+    
+    #spanthree{
+        width: 50px;
+        height: 20px;
+        background-position: 0% 50%;
+    }
+
+    #firstpic p, #secpic p{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 360px){
+    #nav i{
+        display: block;
+    }
+
+    #nav a{
+        display: none;  
+    }
+
+    /* #banner{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    } */
+}

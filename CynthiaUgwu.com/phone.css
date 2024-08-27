@@ -1,0 +1,86 @@
+  #heading h1 {
+    font-size: 15vw;
+  }
+  
+  #heading #secondh1 {
+    margin-left: 110px;
+  }
+  
+  .blockText h5 {
+    line-height: 2;
+  }
+  
+  #sideHeadings h5 {
+    font-size: 4vw;
+  }
+  
+  #herofooter #iconset {
+    display: none;
+  }
+  
+  #herofooter {
+    gap: 50vw;
+  }
+  
+  #hero {
+    height: 85vh;
+  }
+  
+  .elem {
+    width: 100%;
+  }
+  
+  .elem h1 {
+    font-size: 5vh;
+  }
+  
+  .elem h5 {
+    font-size: 1.1vh;
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-top: 10vh;
+    gap: 3vh;
+  }
+  
+  #second {
+    height: 60vh;
+  }
+  
+  #about img {
+    height: 300px;
+  }
+  
+  #subscribe {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  
+  #subscribe h3 {
+    margin-top: 5px;
+  }
+  
+  #footer {
+    flex-direction: column-reverse;
+    padding: 20px;
+    gap: 15px;
+  }
+  
+  #footerRight {
+    gap: 20px;
+  }
+  
+  #aboutText {
+    width: 40vh;
+  }
+  
+  #aboutText p {
+    font-size: 15px;
+  }
+  
+  #aboutText a {
+    font-size: 10px;
+  }

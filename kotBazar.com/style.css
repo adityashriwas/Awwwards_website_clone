@@ -1,0 +1,365 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navigation Bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0px;
+  left:0px;
+  z-index: -1;
+  opacity: 0.4;
+}
+/* Navigation Bar logo and image */
+#logo img {
+  height: 59px;
+  margin: 3px 6px;
+}
+
+/* Navigation Bar list styling */
+
+#navbar ul {
+  display: flex;
+  font-family: "Baloo Bhai", cursive;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: #e0e0e0; 
+    text-shadow: 0 0 5px #ded2d2, 0 0 10px #ded2d2, 0 0 15px #ded2d2; 
+}
+
+/* home section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 550px;
+  top: 0px;
+  left: 0px;
+  justify-content: center;
+  align-items: center; 
+}
+
+#home::before {
+  content: "";
+  background: url("Assets/frontTailor.jpg") no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+#home h1 {
+  color: white;
+  text-align: center;
+  font-family: "Baloo Bhai", cursive;
+}
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* services section */
+
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 3px 6px;
+  border-radius: 28px;
+  background-color: #f2f2f2;
+}
+
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#services .box p {
+  font-family: "Bree Serif", serif;
+}
+
+/* contact-section */
+
+#contact {
+  position: relative; 
+  width: 100%;
+  z-index: 0;  
+  color: white;
+}
+
+#contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  background: url("Assets/contact2.jpg") no-repeat center center/cover;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 34px;
+}
+
+.form-group input, textarea{
+  background: transparent;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#contact-box form {
+  padding: 55px;
+  width: 40%;
+  font-weight: bolder;
+}
+
+#contact-box label {
+  font-size: 1.9rem;
+  font-family: "Bree Serif", serif;
+}
+
+/* styling footer section */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 9px 20px;
+}
+
+/* utility classes */
+
+.h-primary {
+  font-size: 2.8rem;
+  padding: 12px;
+  font-family: "Bree Serif", serif;
+}
+
+.h-secondary {
+  font-size: 2.1rem;
+  padding: 12px;
+  font-family: "Bree Serif", serif;
+}
+
+.btn {
+  padding: 6px;
+  border: 2px solid white;
+  background-color: azure;
+  color: black;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+/* styling about section */
+
+.about-text{
+  font-family: "Bree Serif", serif;
+  margin: 20px;
+}
+
+.about-list{
+  font-family: "Bree Serif", serif;
+  margin: 20px;
+}
+
+.about-list li{
+  padding: 5px;
+}
+
+
+.about-container{
+  border: 3px solid brown;
+  margin: 20px;
+  padding: 0px 30px 30px 30px;
+}
+
+#about .tailor-img img{
+  height: 100px;
+}
+
+/* styling store */
+
+.our-store{
+  display: flex;
+  align-items: center;
+  background-color: azure;
+}
+
+.OUTERSTORE{
+  border: 3px solid brown;
+  margin: 10px;
+  padding: 20px;
+}
+
+.img-Store img {
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.text-store{
+  font-family: "Bree Serif", serif;
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+/* hover effects */
+
+ .our-store img {
+  transition: all 0.2s ease-in-out;
+}
+
+.our-store:hover img {
+  transform: scale(1.2);
+} 
+
+/* styling payment form */
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.row h3{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: blueviolet;
+  margin: 10px;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.row input[type=text], .form-control {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn1{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 10px;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover, .btn1:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.row input{
+  width: 97%;
+}
+
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+

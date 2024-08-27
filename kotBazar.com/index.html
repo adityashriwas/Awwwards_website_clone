@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KotBazar.com</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree Serif"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1170px)"
+      href="phone.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="Assets/kotlogo2.jfif" alt="MyOnlineTailor.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="index.html">Home</a></li>
+        <li class="item"><a href="index.html#services-container">Services</a></li>
+        <li class="item"><a href="AboutUs.html">About Us</a></li>
+        <li class="item"><a href="index.html#contact">Connect to Us</a></li>
+        <li class="item"><a href="OurStore.html">Our Store</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1 class="h-primary">Welcome to Your Online Tailor Shop</h1>
+      <p>
+        we believe that every stitch tells a story, and we're here to tailor
+        yours. Our dedicated team of skilled artisans is committed to bringing
+        your fashion aspirations to life, one thread at a time. Whether you're
+        looking for the perfect bespoke suit, a custom-designed dress, or
+        alterations that fit you just right, you're in the right place. Explore
+        our world of tailoring expertise and let us weave elegance into every
+        garment. Your journey to personalized fashion starts here!
+      </p>
+      <a href="paymentform.html"><button class="btn">Order Now</button></a>
+    </section>
+
+    <!-- services section -->
+
+    <section id="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="Assets/beskpok.webp" alt="" />
+          <h2 class="h-secondary center">Bespoke Tailoring</h2>
+          <p class="center">
+            Indulge in the luxury of personalized fashion with our bespoke
+            tailoring service. Each garment is meticulously crafted to your
+            exact measurements and style preferences, ensuring a perfect fit and
+            a one-of-a-kind look that reflects your unique taste.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="Assets/consult.webp" alt="" />
+          <h2 class="h-secondary center">Virtual Consultations</h2>
+          <p class="center">
+            Experience the convenience of personalized style consultations from
+            the comfort of your home. Our expert tailors are just a video call
+            away, ready to guide you through fabric choices, design options, and
+            ensure that every detail aligns with your vision for the perfect
+            garment.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="Assets/fabric.webp" alt="" />
+          <h2 class="h-secondary center">Fabric Selection</h2>
+          <p class="center">
+            Choose from our curated collection of premium fabrics to elevate
+            your wardrobe. From luxurious silks to durable cotton blends, our
+            extensive range ensures that you not only look good but feel
+            comfortable in every garment we create for you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-container">
+      <div id="services">
+        <div class="box">
+          <img src="Assets/img3.jpg" alt="" />
+          <h2 class="h-secondary center">Alterations and Repairs</h2>
+          <p class="center">
+            Your satisfaction is our priority. Whether it's a minor adjustment
+            or a repair, our skilled tailors are here to ensure that your
+            garments fit impeccably and stand the test of time. Ship your items
+            to us, and we'll take care of the rest.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="Assets/time.jpg" alt="" />
+          <h2 class="h-secondary center">Quick Turnaround Time</h2>
+          <p class="center">
+            We understand the anticipation of receiving a custom creation. Rest
+            assured, our commitment to a swift turnaround time means you'll be
+            donning your bespoke piece sooner than you think. Quality
+            craftsmanship meets timely delivery at KotBazar.com .
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="Assets/payment.webp" alt="" />
+          <h2 class="h-secondary center">Secure Payment and Ordering</h2>
+          <p class="center">
+            Shopping for custom clothing should be seamless and secure. Our
+            user-friendly online platform ensures a hassle-free ordering
+            process, and with multiple secure payment options, you can trust
+            that your transactions are safe and protected.
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!-- contact section -->
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contact-box">
+        <form>
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your name"
+            />
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email" 
+              id="email"
+              placeholder="Enter Your email"
+            />
+          </div>
+    
+          <div class="form-group">
+            <label for="phone">Phone: </label>
+            <input
+              type="tel" 
+              name="phone" 
+              id="phone"
+              placeholder="Enter Your phone"
+            />
+          </div>
+    
+          <div class="form-group">
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter the things you want"></textarea>
+          </div>
+
+          <input type="submit" value="Send" class="btn1" />
+
+        </form>
+      </div>
+    </section>
+    
+
+    <footer>
+      <div class="center">
+        copyright &copy; www.KotBazar.com All rights reserved!
+      </div>
+    </footer>
+  </body>
+</html>
